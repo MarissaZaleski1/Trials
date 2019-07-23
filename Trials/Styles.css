@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Montserrat&display=swap');
+
+body {
+	background-color: white;
+	font-family: Courier, serif;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Montserrat', sans-serif;}
+
+hr {
+	margin: 30px;
+    border-style: solid;
+	border-color: #FFFFFF;}
+
+.header {
+    background-color:darkgray
+    color: black;
+	font-family: Courier, serif;
+	text-align: center;}
+
+#logo {
+	width: 50px;
+	margin-top: -5px;	
+	vertical-align: middle;}
+
+.nav {
+	border-style: thin; color: black;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	vertical-align: bottom;}
+
+a {
+    background-color: gray;
+    color: white;}
+
+a:link {
+    background-color: gray;
+    color: white;}
+
+a:visited {
+    background-color: gray;
+    color: white;}
+
+a:hover {
+	color: #2A2C32;
+	font-weight: bolder;}
+
+a:active {
+	color: #2A2C32;
+	text-decoration: none;}
+
+.item {
+	max-height: 200px;}
+
+.imgItem {
+	min-height: 150px;	}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;}
+
+.item:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgba(0,0,0,0.5);}
+
+@media (max-width: 992px) {
+	.item {
+        height: 250px;}
+}
+
+@media (max-width: 768px) {
+	.item {
+		height: 200px;}
+}
+
+@media (max-width: 544px) {
+	.carousel-caption h2, .carousel-caption h3 {
+		font-size: 130%;}
+}
+
+div.footer {
+    background-color: darkgray;
+    color: black;
+	font-family: Courier, serif;
+	text-align: center;}
